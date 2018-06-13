@@ -1,0 +1,49 @@
+<view class="header">
+    <view class="title">收费编号管理</view>
+</view>
+<view class="detail">
+    绑定收费编号需要收费编号密码，请预先设置收费编号密码。密码错误或忘记密码请到网点重置。
+</view>
+<view class="form">
+    <input type="text" placeholder="收费编号" auto-focus />
+    <input type="text" placeholder="收费编号密码" auto-focus />
+    <input type="text" placeholder="收费编号昵称" auto-focus />
+    <button class="btn" type="default" size="defaultSize">绑定</button>
+</view>
+<view class="line"></view>
+<view class="centainer-box">
+	<text class="name">已绑定收费编号</text>
+    <view class="inner">
+        <view class="isbinding">
+            <view class="num-box">
+                <span>051736000277</span>
+                <view class="nick-box">
+                    <span>(这里最多可以六)</span>
+                </view>
+            </view>
+            <view class="btn-box">
+                <view class="btn">预约</view>
+                <view class="btn">授权</view>
+                <view class="btn">删除</view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="centainer-box">
+	<text class="name">已授权收费编号</text>
+    <view class="inner">
+        <view class="isbinding">
+            <view class="num-box">
+                <span>051736000277</span>
+                <view class="nick-box">
+                    <span>(这里最多可以六)</span>
+                </view>
+            </view>
+            <view class="btn-box">
+                <view class="btn">预约</view>
+                <view class="btn">授权</view>
+                <view class="btn">删除</view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,40 @@
+<view class="header">
+	<view class="title">手机温控器</view>
+	<view class="site">北京市通区XXX小区XX号楼XX单元XXX室</view>
+</view>
+<view class="opertion-box">
+	<text class="name">花家地</text>
+	<view class="temperature">
+		18
+		<view class="warn"></view>
+		<view class="time">
+			2018-06-11 20:01:33
+		</view>
+	</view>
+	<view class="regulator-box">
+		<view class="scale">
+			<view>30</view>
+			<view>29</view>
+			<view>28</view>
+			<view>27</view>
+			<view>26</view>
+			<view>25</view>
+			<view>24</view>
+			<view>23</view>
+			<view>22</view>
+			<view>21</view>
+			<view>20</view>
+		</view>
+		<view class="adjust-box">
+			<view class="btn"></view>
+		</view>
+	</view>
+</view>
+
+<view class="weather-box">
+	<text class="name">外部天气</text>
+</view>
+
+<view class="temperature-box">
+	<text class="name">最近一周温度趋势</text>
+</view>

@@ -1,0 +1,14 @@
+<view class="header">
+	<view class="title">我的信息</view>
+</view>
+<view class="main">
+    <view 
+        wx:for="{{lists}}" 
+        wx:key="{{item.id}}" 
+        bindtap="toDetail"  
+        data-type="{{item.type}}"
+    >
+        {{item.title}}
+        <image src="../../images/left.png"/>
+    </view>
+</view>

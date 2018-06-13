@@ -1,0 +1,88 @@
+.header {
+  width: 100%;
+  color: #fff;
+  font-size: 32rpx;
+  min-height: 160rpx;
+  background: #4f58a8;
+}
+.header .title {
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 30rpx;
+}
+.detail {
+  width: 700rpx;
+  font-size: 24rpx;
+  color: #555;
+  margin: 40rpx auto;
+}
+.form {
+  width: 600rpx;
+  margin: 0 auto;
+}
+.form input {
+  border: 2rpx solid #ccc;
+  height: 56rpx;
+  line-height: 56rpx;
+  display: flex;
+  font-size: 28rpx;
+  padding: 0rpx 28rpx;
+  box-sizing: border-box;
+  border-radius: 24rpx;
+  margin-bottom: 24rpx;
+  background: #f1f1f1;
+}
+.form .btn {
+  background: #4f58a8;
+  color: #fff;
+  height: 68rpx;
+  line-height: 68rpx;
+  border-radius: 34rpx;
+  font-size: 28rpx;
+}
+.line {
+  width: 700rpx;
+  height: 4rpx;
+  background: #ccc;
+  margin: 40rpx auto;
+}
+.inner {
+  width: 100%;
+  min-height: 80rpx;
+  border: 2rpx solid #ccc;
+  font-size: 24rpx;
+}
+.inner .isbinding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8rpx;
+}
+.inner .isbinding .num-box {
+  width: 400rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.inner .isbinding .num-box .nick-box {
+  width: 190rpx;
+  text-align: center;
+}
+.inner .isbinding .btn-box {
+  width: 300rpx;
+  height: 80rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.inner .isbinding .btn-box .btn {
+  width: 80rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  background: #d43d3d;
+  text-align: center;
+  color: #fff;
+  border-radius: 22rpx;
+  font-size: 20rpx;
+}

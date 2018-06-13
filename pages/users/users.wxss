@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  color: #fff;
+  font-size: 32rpx;
+  min-height: 160rpx;
+  background: #4f58a8;
+}
+.header .title {
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 30rpx;
+}
+.main {
+  width: 700rpx;
+  margin: 80rpx auto;
+}
+.main view {
+  color: #333;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-indent: 20rpx;
+  font-size: 28rpx;
+  border-bottom: 2rpx solid #666;
+  position: relative;
+}
+.main view image {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  right: 0;
+  top: 20rpx;
+}
